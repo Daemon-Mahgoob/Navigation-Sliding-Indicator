@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <title>Navigation Sliding Indicator</title>
+  </head>
+  <body>
+    <div class="container">
+      <input type="radio" name="slider" id="home" checked>
+      <input type="radio" name="slider" id="blog">
+      <input type="radio" name="slider" id="code">
+      <input type="radio" name="slider" id="help">
+      <input type="radio" name="slider" id="about">
+      <nav class="navigation">
+        <div class="slider"></div>
+        <label for="home" class="nav-item">
+          <div class="home">
+            <i class="bx bxs-home"></i>Home </div>
+          </label>
+          
+        <label for="blog" class="nav-item">
+          <div class="blog">
+
+            <i class="bx bxl-blogger"></i>Blog
+          </div>
+        
+        </label>
+        <label for="code"  class="nav-item">
+          <div class="code">
+
+            <i class="bx bx-code-alt"></i>Code
+          </div>
+        
+        </label>
+        <label for="help" class="nav-item">
+          <div class="help">
+
+            <i class='bx bxs-envelope'></i></i>Help
+          </div>
+        
+        </label>
+        <label for="about" class="nav-item">
+          <div class="about">
+
+            <i class='bx bxs-user'></i>About
+          </div>
+        
+        </label>
+      </nav>
+    </div>
+  </body>
+</html>
